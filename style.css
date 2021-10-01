@@ -1,0 +1,51 @@
+/*
+gruvbox colors
+#98971a #fe8019 #282828 #cc241d
+#fb493 #ebdbb2 #a89984 #fbf1c7
+#689d6a #d65d0e #458588
+*/
+
+  body{
+   background-color: #282828;
+  }
+  .fletter{
+    color: #fe8019;
+    font-weight: bold;
+  }
+  .summary{
+    color: #ebdbb2;
+    list-style-position: inside;
+    text-align: center;
+  }
+  #listskill{
+    background-color: #1d2021;
+  }
+  a{
+    color: white;
+    text-align: center;
+  }
+  #whoami{
+    background-color: #fe8019;
+    color: #282828;
+    text-align: center;
+  }
+  #myskills{
+    background-color: #fe8019;
+    text-align: center;
+    color: #282828;
+  }
+  h2{
+    text-align: center;
+    color: #ebdbb2;
+  }
+  p{
+    color: #ebdbb2;
+    text-align: center;
+  }
+  .block{
+    background-color: #1d2021;
+  }
+  #contactme{
+    text-align: center;
+    color: #ebdbb2;
+  }
