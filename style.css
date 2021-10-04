@@ -5,7 +5,12 @@ gruvbox colors
 #689d6a #d65d0e #458588
 */
 
+  html{
+    background-color: #282828;
+  }
   body{
+   margin-left: 350px;
+   margin-right: 350px;
    background-color: #282828;
   }
   .fletter{
