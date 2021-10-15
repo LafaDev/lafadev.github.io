@@ -1,93 +1,242 @@
+<!--
+
+█    ██   ▄████  ██       ██▄   ▄███▄      ▄   
+█    █ █  █▀   ▀ █ █      █  █  █▀   ▀      █  
+█    █▄▄█ █▀▀    █▄▄█     █   █ ██▄▄   █     █ 
+█▄▄█ █  █ █      █  █     █  █  █▄   ▄▀ █    █ 
+     ▀  █  █        █     ███▀  ▀███▀    █  █  
+       █    ▀      █                      █▐   
+      ▀           ▀                       ▐   
+
+references / credits
+
+images / gifs / icons
+https://www.google.com/imghp?hl=en
+https://github.com/alexandresanlim/Badges4-README.md-Profile
+https://www.svgrepo.com
+https://radio.x-team.com
+
+code consult / reference
+https://www.w3schools.com
+https://stackoverflow.com
+https://developer.mozilla.org/en-US/
+
+-->
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-	<script type="text/javascript" src="https://livejs.com/live.js"></script>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <title>LafaDev</title>
-        <link rel="icon" type="image/png" 
-            href="images/cat-32.png">
-  </head>
-
-  <body>
-    <h3>
-      <a 
-        href="https://lafadev.github.io/index">English</a>
-      <a style="color:#fe8019;"
-        href="https://lafadev.github.io/index-pt-br">Português</a>
-    </h3>
-
-    <h2>
-	<a href="https://github.com/LafaDev" target="_blank">
-	<img align=center id="lafaphoto" 
-            src="images/lafa-photo.png" 
-            alt="Lucas Flores' picture" 
-            width="258" heigh="258">
-	</a>
-</h2>
-
-    <h1 align=center style="color:#fe8019;"> LAFA </h1>
-
-    	<p> 
-                <span class="fletter">L</span>ucas
-                <span class="fletter">A</span>ugusto
-                <span class="fletter">F</span>lores
-                <span class="fletter">A</span>lves
-      		<br>
-      		<em style="font-size:15px;">Brasil, Rio De Janeiro</em>
-    	</p>
-
-    	<h2> Estudante de Desenvolvimento Web na <a href= https://www.betrybe.com target="_blank" style="color:#fe8019;">TRYBE </a> </h1>
-        <br>
-		<ul class="summary">
-			<li> <a href="#whoami">Quem sou eu?</a></li> 
-			<li> <a href="#myskills">Habilidades</a></li> 
-			<li> <a href="#contactme">Contato</a></li> 
-		</ul>
-
-	<br> <br> <br>
-
-	<h2 id="whoami">Quem sou eu?</h2>
-
-          <p class="block">Ola! Meu nome é <a style="color:#fbf1c7" href="#lafaphoto">Lucas!</a><br>
-	    Sou estudante de <strong>Desenvolvimento Web</strong> do <em>Brasil, Rio de Janeiro.</em> <br>
-	     Sou apaixonado por programação, coisas relacionadas a linux, e jogos 🎮
-          </p>
-
-	<br> <br> <br>
-
-	<h2 id="myskills">Habilidades:</h2>
-          <ul id="listskill" class="summary">
-            <li>Bash</li>
-            <li>Linux</li>
-            <li>Vim/NeoVim</li>
-          </ul>
-
-	<br> <br> <br>
-
-	<h2 id="contactme">Contato:</h2>
-        <p>
-        <!-- linkedin image -->
-          <a href="https://www.linkedin.com/in/lafa/" target="_blank">
-             <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-             alt="link to LinkedIn"
-             width="166,5"
-             height="42">
-          </a>
-        <!-- github image -->
-	  <a href="https://github.com/LafaDev/" target="_blank">
-              <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-             alt="link to Github"
-             width="143,25"
-             height="42">
-          <a/>
-        <!-- email image -->
-	  <a href="mailto:lafa.dev@protonmail.com">
-             <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white" 
-             alt="link to email"
-             width="203,25"
-             height="42">
-          </a>
-        </p>
-  </body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="icon" href="images/cat-32.png" type="image/png">
+    <title>LafaDev Profile</title>
+</head>
+<body>
+    <main>
+        <header> 
+            <ul class="langbuttons">
+                <a href="index.html">
+                    <li class="chnlang">English</li>
+                </a>
+                <a href="index-pt-br.html">
+                    <li class="actlang">Português</li>
+                </a>
+            </ul>
+            <nav>
+                <ul>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Connect with Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <a href="#">
+            <img id="profileimg" src="images/lafa.jpg" alt="">
+        </a>
+        <h1 id="lafa">
+            <span>L</span>
+            <span>A</span>
+            <span>F</span>
+            <span>A</span>
+        </h1>
+        <p><span>L</span>ucas <span>A</span>ugusto <span>F</span>lores <span>A</span>lves</p>
+        <h1 class="destaq">Web Development Student</h1>
+        <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/lafa/" target="_blank">
+                        <img class="homecontact" src="images/svg/linkedin.svg" alt="" 
+                        width="30px" height="30px">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/LafaDev" target="_blank">
+                        <img class="homecontact" src="images/svg/github.svg" alt="" 
+                        width="30px" height="30px">
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:lafa.dev@protonmail.com">
+                        <img class="homecontact" src="images/svg/mailto.svg" alt="" 
+                        width="30px" height="30px">
+                    </a>
+                </li>
+            </ul>
+        <footer>
+         <a href="#aboutme">
+            <img src="images/svg/arrow.svg" alt="" id="homebutton"
+            width="40px" height="40px">
+        </a>
+        </footer>
+    </main>
+    <section id="aboutme">
+        <div class="leftabt">
+            <h1 class="sectiontitle">About Me</h1>
+            <div class="abtfrom">
+                <p>Currently studying <br> Full Stack Development at</p>
+                <a href="https://www.betrybe.com" target="_ blank">
+                    <img src="images/trybe.png" alt="" width="90px" height="90px">
+                    <h1>TRYBE</h1>
+                </a>
+            </div>
+                <h1>My Hobbies</h1>
+            <div id="hobbies">
+                <a href="#aboutme">
+                    <div id="reading">
+                        <h2 class="hobbit">Reading</h2>
+                    </div>
+                </a>
+                <a href="#aboutme">
+                    <div id="gaming">
+                        <h2 class="hobbit">Gaming</h2>
+                    </div>
+                </a>
+                <a href="#aboutme">
+                    <div id="computing">
+                        <h2 class="hobbit">Coding</h2>
+                    </div>
+                </a>                                
+                <a href="#aboutme">
+                    <div id="musics" class="gifmusic">
+                        <h2 class="hobbit">Music</h2>
+                    </div>
+                </a>
+            </div>
+                    </div>
+        <div class="rightabt">
+                <div class="intone">
+                    <h1>Hello, there!</h1> <br>
+                    <p >My name is Lucas,<br>
+	                i'm a 21 year old <br> <strong>Web Development</strong> student <br> 
+                    from <em>Brazil, Rio de Janeiro.</em> <br> <br>
+	                I love programming, <br> linux related stuff, and gaming 
+                    </p>
+                </div>
+                <div class="nextpage">
+                    <h1>My Skills</h1>
+                    <a href="#skills">
+                        <img style="margin-top: 10px;" src="images/svg/arrow.svg" alt="" id="aboutbutton"
+                        width="40px" height="40px">
+                    </a>
+                </div>
+        </div>
+        <!-- <footer>
+            <a href="#">
+                <img src="images/svg/arrowup.svg" alt="">
+            </a>
+        </footer> -->
+    </section>
+    <section id="skills">
+        <div id="learning">
+                <h1>My Skills</h1>
+                <div>
+                    <h2>Proficiency</h1>
+                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="">
+                </div>
+                <div>
+                    <h2>Learning</h2>
+                    <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="">
+                    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="">
+                </div>
+                <div>
+                    <h2>My Editors</h2>
+                    <img src="https://img.shields.io/badge/VIM-%2311AB00.svg?&style=for-the-badge&logo=vim&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="">
+                </div>
+                <div>
+                    <h2>Interests</h2>
+                    <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=LaTeX&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/Perl-39457E?style=for-the-badge&logo=perl&logoColor=white" alt="">
+                </div>
+            </div>
+            <div id="certifications">
+                <h1>Certificates</h1>
+                <div>
+                <img src="/temport/images/selo_CPA20_c.jpg" alt="" width="103px" height="103">
+                <h3>CPA-20</h3>
+                </div>
+        </div>
+        <div>
+            <div id="projects">
+                <h1>My Projects</h1>
+                <a href="#projects">
+                    <div>
+                        <h2>First project</h2>
+                        <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+                    </div>
+                </a>
+                <a href="#projects">
+                    <div>
+                        <h2>Second project</h2>
+                        <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+                </div>
+                </a>
+                <a href="#projects">
+                    <div>
+                        <h2 class="protitle">Third Project</h2>
+                        <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+                    </div>
+                </a>
+                <aside id="skillsbuttons">
+                    <aside>
+                        <aside id="connectbutton">
+                            <a href="#">
+                                <img src="/temport/images/svg/arrowup.svg" alt="" width="50px" height="50px">
+                            </a>
+                        </aside>
+                        <aside id="backbutton">
+                            <a href="#contact">
+                                <img src="/temport/images/svg/arrow.svg" alt="" width="40px" height="40px">
+                            </a>
+                        </aside>
+                    </aside>
+                 </aside>
+            </div>
+            
+       </div>
+    </section>
+    <section id="contact">
+        <article>
+            <h1>Connect with me</h1>
+            <a href="https://www.linkedin.com/in/lafa/" target="_blank">
+                <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="">
+            </a>
+            <a href="mailto:lafa.dev@protonmail.com" target="_blank">
+                <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white" alt="">
+            </a>
+            <a href="https://github.com/LafaDev" target="_blank">
+                <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="">
+            </a>
+        </article>
+   </section>
+</body>
 </html>
