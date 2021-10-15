@@ -10,6 +10,6 @@ main, p, h1, h2, h3, section, #hobbies, #hobbies a, #projects div, #musics, #rea
 body {
     min-height: 100vh;
 }
-.langbuttons a, a, ul li, .abtfrom a, #projects a, #contact article a {
+.langbuttons a, ul li, .abtfrom a, #projects a, #contact article a {
     text-decoration: none;
 }
