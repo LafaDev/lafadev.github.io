@@ -1,0 +1,15 @@
+main, p, h1, h2, h3, section, #hobbies, #hobbies a, #projects div, #musics, #reading, #gaming, #computing, #certifications img {
+    margin: 0px;
+    padding: 0px;
+}
+* {
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    min-height: 100vh;
+}
+.langbuttons a, ul li, .abtfrom a, #projects a, #contact article a {
+    text-decoration: none;
+}
